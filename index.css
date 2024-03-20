@@ -1,0 +1,27 @@
+
+
+#head{
+    background-image: url("pictures/Home-Page-Image\ 2hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 38%;
+    width: 100%;
+    height: 751px;
+    display:flex;
+    justify-content: center;
+    object-position: center;
+    visibility: inherit;
+    flex-direction: column;
+
+}
+#head_text{
+    font-family: 'Merriweather', serif;
+    color:white;
+    font-size: calc(2rem + 2vw);
+    font-weight: 700;
+    text-align: center;
+    margin:auto;
+    padding-top:22rem;
+    line-height: 1.2;
+
+}
