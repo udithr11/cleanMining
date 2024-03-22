@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Merriweather', sans-serif;
+}
 
 #head{
     background-image: url("pictures/Home-Page-Image\ 2hero.png");
@@ -43,4 +45,85 @@
     margin:auto;
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
 }
+
+
+@media(max-width:1200px){
+    .section_2_second_inner_1{
+        font-size:12px !important;
+        
+    }
+
+
+}
+@media(max-width:992px){
+    .section_2_second_inner_1{
+        font-size:8px !important;
+        line-height:1;
+    }
+}
+
+
+@media(max-width:767px){
+    #section_2_div_8{
+        border:none !important;
+    }
+    #section_2_div_9{
+        text-align: center !important;
+    }
+    #section_3_inner_div_heading{
+        padding-bottom:10rem !important;
+    }
+    #section_3_space_correction{
+        padding-top:8rem !important;
+    }
+    .about_left{
+        padding-bottom:3rem !important;
+        width:100% !important;
+    }
+    .teams_row_7_inner_right {
+        width:100% !important;
+        text-align:center !important;
+
+    }
+    .teams_row_7_inner_left{
+        width:100% !important;
+        text-align:center !important;
+    }
+    .vinay_picture{
+        order:1 !important;
+    }
+    .vinay_text{
+        order:2 !important;
+    }
+    .teams_row_7_inner_left{
+        padding:0rem 3rem !important;
+    }
+    .teams_row_7_inner_right{
+        padding:0rem 3rem !important;
+    }
+    #teams_div_1{
+        padding-top:0 !important;
+    }
+    .teams_row_7_inner_inner_2{
+        padding-bottom:3rem !important;
+    }
+}
+
+@media(max-width:576px){
+    .section_2_second_inner_1{
+        font-size:5px !important;
+        line-height:1;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 450px) {
+    .section_2_second_inner_1{
+        font-size:4px !important;
+        line-height:1.2;
+        /* padding-top:1rem !important */
+    }
+    
+
+}
+
 
