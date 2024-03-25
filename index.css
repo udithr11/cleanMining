@@ -140,6 +140,12 @@ body{
         margin-top:-0.8rem !important;
         padding:1rem !important;
     }
+    .teams_row_7_inner_inner{
+        padding-top:0 !important;
+    }
+    .teams_row_7_inner_inner{
+        margin-top: -3rem !important;
+    }
 }
 
 @media(max-width:576px){
