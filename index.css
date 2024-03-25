@@ -46,19 +46,42 @@ body{
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
 }
 
-
 @media(max-width:1200px){
     .section_2_second_inner_1{
         font-size:12px !important;
         
     }
+}
 
-
+@media(max-width:1033px){
+    #nav_contact_us{
+        display: none!important;
+        
+    }
 }
 @media(max-width:992px){
     .section_2_second_inner_1{
         font-size:8px !important;
         line-height:1;
+    }
+    .responsive_off{
+        display:none !important;
+    }
+    #nav_lovgo{
+        /* max-width: 75% !important; */
+
+    }
+    #tail_logo{
+        max-width: 75% !important;
+    }
+    #tail_contact{
+        padding:0.5rem 1.5rem !important; 
+    }
+    #rights_reserved{
+        padding-left:3rem !important;
+    }
+    #nav_home{
+        padding-left:0 !important;
     }
 }
 
@@ -106,6 +129,16 @@ body{
     }
     .teams_row_7_inner_inner_2{
         padding-bottom:3rem !important;
+    }
+    #tail_email{
+        padding-top: 2rem !important;
+    }
+    #tail_height_adjuster{
+        display:none !important;
+    }
+    .operation_3{
+        margin-top:-0.8rem !important;
+        padding:1rem !important;
     }
 }
 

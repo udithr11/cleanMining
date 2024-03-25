@@ -12,3 +12,16 @@ function toggleDivs(id) {
         secondDiv.style.display = 'flex';
     }
 }
+
+
+    window.addEventListener('load', function () {
+        if (window.location.hash) {
+            // Smooth scroll to the element if the hash is present
+            document.querySelector(window.location.hash).scrollIntoView({ behavior: 'smooth' });
+            
+            // Remove the hash from the URL without causing the page to scroll
+            history.replaceState(null, null, '#');
+            window.scrollTo(0, 0);
+
+        }
+    });

@@ -27,7 +27,64 @@
 
 </head>
 <body>
+
+
+   
+    
+   
+    
+
+
     <section id="head">
+
+        <style>
+            .navbar-toggler-icon {
+                border: none !important;
+            }
+            .navbar-toggler:focus {
+                box-shadow: none !important;
+            }
+        </style>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid d-flex justify-content-between align-items-center" style="max-width: 100%; background-colorr: red;">
+                <img id="nav_logo" src="pictures/Layer_1.png" class="img-fluid " style="object-fit: fill; max-width: 21%;background-color: white;padding:0.1rem 0.1rem ;margin-left:16px">
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border:none">
+                    <span class="navbar-toggler-icon no-box-shadow" style="background-color:white;border-radius:5px;padding:0.2rem"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-white " style="padding:0.6rem 2rem;margin-left:1rem" >
+                        <li class="nav-item">
+                            <a class="nav-link active " id="nav_home" style="padding-left:3rem;color:#215426;font-size:small" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:#215426;font-size:small" href="#section_2">Company Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:#215426;font-size:small" href="#section_3">Our Core Values</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="color:#215426;font-size:small" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" style="color:#215426;font-size:smaller" href="#about_heading">Our Vision</a></li>
+                                <li><a class="dropdown-item" style="color:#215426;font-size:smaller" href="#about_heading">Our Mission</a></li>
+                                <li><a class="dropdown-item" style="color:#215426;font-size:smaller" href="#teams">Our Team</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:#215426;font-size:small" href="#operations">Our Operations</a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div id="nav_contact_us"  style="padding: 1rem 1.5rem; color:white; background-color: #215426;">
+                    Contact
+                </div>
+            </div>
+        </nav>
         <div id="head_text">A Breath of Fresh Air<br> in Mining</div>
         <div style="margin:auto;margin-top:-4rem;">
             <img style="max-width:75%" alt="down_arrow" src="pictures/Group_137.png" class="img-fluid"/>
@@ -552,7 +609,7 @@
             <div class="usual">
 
                 <div class="operation_3" >
-                    <div class="p-5" >
+                    <div class="pb-5" >
                         We constantly evaluate new events and experiences in our different locations, learn from them, and tweak our standard operating procedures to ensure that a similar event or context is dealt with most efficiently, if it is to arise again. Our learnings are our
                      biggest assets and we ensure that every stakeholder who works with us, benefits from our experiences.
                     </div>
@@ -572,11 +629,11 @@
         <div class="container-xl" style="height:2px;background-color: #215426;">
         </div>
 
-        <div class="container-xl usual p-4 bg-light">
+        <div class="container-xl usual p-2 ">
             <div style="width:85%;background-colorr:#caf7cf;display:flex;align-items: center;justify-content: space-between;">
                 <div class="usual" style="align-items:center">
-                    <img src="pictures/Layer_1.png" class="img-fluid" style="object-fit:fill;max-width:21%"/>
-                    <div style="display:flex">
+                    <img id="tail_logo" src="pictures/Layer_1.png" class="img-fluid" style="object-fit:fill;max-width:21%"/>
+                    <div class="responsive_off" style="display:flex">
                         <div style="padding-left:3rem ; font-size: calc(0.4rem + 0.5vw);"><b>Home.</b></div>
                         <div style="padding-left:3rem; font-size: calc(0.4rem + 0.5vw);">About Company.</div>
                         <div style="padding-left:3rem; font-size: calc(0.4rem + 0.5vw);">Mining.</div>
@@ -585,14 +642,14 @@
                 
                 </div>
                 
-                <div style="padding:1rem 2rem;background-color:#215426;color:white;justify-content:flex-end">
+                <div id="tail_contact" style="padding:1rem 2rem;background-color:#215426;color:white;justify-content:flex-end">
                     Contact
                 </div>
                 
             </div>
             
         </div>
-        <div style="text-align:center;padding-top:10rem;font-size:calc(1rem + 1.5vw);color:#215426;font-weight: 600;">
+        <div id="tail_email" style="text-align:center;padding-top:10rem;font-size:calc(0.8rem + 1vw);color:#215426;font-weight: 600;">
             info@cleanminingcompany.com
         </div>
 
@@ -602,14 +659,14 @@
         </div>
         </div>
 
-        <div style="padding-top:3rem"></div>
+        <div id="tail_height_adjuster" style="padding-top:3rem"></div>
 
         <div class="container-xl" style="height:2px;background-color: #215426;">
         </div>
         <div class="usual">
-        <div style="width:85%;background-colorr:#caf7cf;display:flex;align-items: center;padding:1rem;color:#215426">
+        <div style="width:85%;background-colorr:#caf7cf;display:flex;align-items: center;padding:1rem;color:#215426;font-size: calc(0.5rem + 0.5vw);">
                <div>PRIVACY POLICY</div> 
-               <div style="padding-left:15rem">2023 CLEANMININGCOMPANY. ALL RIGHTS RESERVED.</div>
+               <div id="rights_reserved" style="padding-left:15rem">2023 CLEANMININGCOMPANY. ALL RIGHTS RESERVED.</div>
                 </div>
             </div>
 
@@ -617,6 +674,6 @@
         </div>
     </section>
 
-    <section style="padding:10rem ;background-color: #CDCFCD;"></section>
+    <!-- <section style="padding:10rem ;background-color: #CDCFCD;"></section> -->
 </body>
 </html>
