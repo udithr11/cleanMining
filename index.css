@@ -70,9 +70,8 @@ body{
     .responsive_off{
         display:none !important;
     }
-    #nav_lovgo{
-        /* max-width: 75% !important; */
-
+    #nav_logo{
+        margin-left:16px;
     }
     #tail_logo{
         max-width: 75% !important;
@@ -91,6 +90,9 @@ body{
     }
     #section_3_mobile{
         display:block !important;
+    }
+    #tail_email{
+        padding-top:5rem !important;
     }
 }
 
