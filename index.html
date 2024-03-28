@@ -332,7 +332,9 @@
 
     </section>
 
-    <section id="section_3_mobile" style="display:none">
+
+
+    <!-- <section id="section_3_mobile" style="display:none">
 
         <style>
            
@@ -349,6 +351,7 @@
                 height:250px;width:350px;
             }
 
+            
         </style>
 
 
@@ -370,7 +373,6 @@
                     <div class="swiper-wrapper">
 
 
-                        <!-- 111111111 -->
                       <div class="swiper-slide">
 
                         <div class="usual" >
@@ -388,7 +390,7 @@
                         </div>
 
                       </div>
-                      <!-- 222222222222 -->
+
                       <div class="swiper-slide">
 
                         <div class="usual">
@@ -407,7 +409,7 @@
 
 
                       </div>
-                      <!-- 333333333333 -->
+
                       <div class="swiper-slide">
 
                         <div class="usual">
@@ -425,7 +427,7 @@
                         </div>
 
                       </div>
-                      <!-- 44444444444 -->
+
                       <div class="swiper-slide">
 
                         <div  class="usual">
@@ -443,7 +445,7 @@
                         </div>
 
                       </div>
-                      <!-- 55555555555 -->
+
                       <div class="swiper-slide">
 
                         <div class="usual">
@@ -462,7 +464,6 @@
 
                       </div>
 
-                      <!-- 66666666666 -->
                       <div class="swiper-slide">
 
                         <div class="usual">
@@ -489,7 +490,188 @@
 
         </div>
 
+    </section> -->
+
+    <section id="section_3_mobile_revised" style="display:none">
+
+        <style>
+
+            .section_2_second_inner_1_mobile{
+                padding:1rem;background-color:#215426;color:white;text-align: center;width:100%;height:100%;font-size:14px;font-weight:200;display:flex;align-items: center;
+            }
+            #section_3_inner_div_heading_mobile_revised{
+                font-family:'Merriweather', serif;text-align:center;color:#215426;font-weight:800;padding-top:4rem;font-size: calc(2.2rem + 1.2vw);padding-bottom:11rem;
+            }
+            .mobile_text{
+                height:100%;width:100%;position:absolute;transform-style: preserve-3d;left:0;
+                transition: transform 1s ease;
+                /* transform: rotateY(180deg); */
+                backface-visibility: hidden;
+                color:white;
+                font-family:'Merriweather',serif ;
+                font-weight: 300;
+                text-align:center;
+                font-size:1rem;
+                align-items: center;                
+                justify-content: center;
+                align-items: center;
+                margin:auto;
+                transform-origin:center;
+            }
+            
+            .mobile_image{
+                height:100%;width:100%;position:absolute;left:0;
+                 transform-style: preserve-3d;
+                transition: transform 1s ease;  backface-visibility: hidden;transform-origin: center;
+            }
+            
+            .flip{
+                transform: rotateY(180deg);
+            }
+           
+
+            .usual_1{
+                display:flex;
+                justify-content: center;
+                perspective: 600px;
+            }
+            .not_usual{
+                height:250px;width:350px;
+
+                transition: transform 1s;
+                transform-style: preserve-3d;
+                cursor: pointer;
+                position: relative;
+            }
+            
+            
+
+        </style>
+
+        <div id="section_3_inner_div_revised" class="container-xl" style="background-colorr: #25bc25;border-radius:2.4rem ;padding-bottom:2rem;">
+        
+            <div >
+                <div id="section_3_inner_div_heading_mobile_revised">
+                    Our Core Values
+                </div>
+               
+
+                <div style="background-colorr: #caf7cf;width:80%;margin:auto; position:relative;">
+                    <img style="margin-top:-6rem" src="pictures/Group 176.svg" class="img-fluid "/>
+                </div>
+
+                    <!-- 111111111 -->
+                    <div >
+                        <div class="usual_1 pt-4">
+                            <div class="not_usual" id="one_mobile_revised" onclick="toggleDivs_mobile('one_mobile_revised')">
+                        <div class="mobile_image usual" >
+                            <img style="object-fit:contain;" alt="greens" src="pictures/box_1_sus.png" class="img-fluid shadow"/>
+                        </div>
+                        <div  class="mobile_text flip" >
+                            <div class="section_2_second_inner_1_mobile shadow"   >
+                        
+                                Our children are our future, and our greatest assets. If there is one metric that can measure Clean Mining Company’s performance against the goals we have set for ourselves, it is the extent to which our operations help leave a planet that is more sustainable for our children and the generations to come. 
+                            </div>
+                        </div>
+                    </div>                    
+                        </div>
+                    </div>
+                    <!-- 2222222 -->
+                <div>
+                    <div class="usual_1 pt-4">
+                        <div class="not_usual" id="two_mobile_revised" onclick="toggleDivs_mobile('two_mobile_revised')">
+                    <div class="mobile_image usual" >
+                        <img style="object-fit:contain;" alt="greens" src="pictures/box_new.png" class="img-fluid shadow"/>
+                    </div>
+                    <div  class="mobile_text flip" >
+                        <div class="section_2_second_inner_1_mobile shadow"   >
+                    
+                            All rights come with responsibility. When we are given permission to use minerals and natural resources that might have taken millions of years to be formed, we do not take lightly the responsibilities that come with it. We consider ourselves responsible to governments, local communities, and all stakeholders including our employees, at all our locations.
+                        </div>
+                    </div>
+                </div>                    
+                    </div>
+                </div>
+                <!-- 33333333 -->
+
+                <div>
+                    <div class="usual_1  pt-4">
+                        <div class="not_usual" id="three_mobile_revised" onclick="toggleDivs_mobile('three_mobile_revised')">
+                    <div class="mobile_image usual" >
+                        <img style="object-fit:contain;" alt="greens" src="pictures/comm_new.png" class="img-fluid shadow"/>
+                    </div>
+                    <div  class="mobile_text flip" >
+                        <div class="section_2_second_inner_1_mobile shadow"   >
+                    
+                            When we extract or use natural resources from a particular region, we believe it is most sustainable, fulfilling and fair when we share the returns from our operations there, with the local community. This philosophy has not only helped us build stronger communities in our areas of operation, but also allowed us to grow sustainably and steadily.
+                        </div>
+                    </div>
+                </div>                    
+                    </div>
+                </div>
+
+                <!-- 44444 -->
+                <div>
+                    <div  class="usual_1  pt-4">
+                        <div  class="not_usual"id="four_mobile_revised" onclick="toggleDivs_mobile('four_mobile_revised')">
+                    <div class="mobile_image usual" >
+                        <img style="object-fit:contain;" alt="greens" src="pictures/leg_new.png" class="img-fluid shadow"/>
+                    </div>
+                    <div  class="mobile_text flip" >
+                        <div class="section_2_second_inner_1_mobile shadow"   >
+                    
+                            The impact of mining and the extent to which it is appropriate in each context is often a subjective opinion. This makes the regulatory environment exceptionally important in defining the boundaries within which we can operate in each location. Our commitment to the benchmarks we set for ourselves in terms of legitimacy and legal compliance, far exceeds industry standards.
+                        </div>
+                    </div>
+                </div>                    
+                    </div>
+                </div>
+
+                <!-- 555555 -->
+                <div>
+                    <div class="usual_1 pt-4">
+                        <div class="not_usual" id="five_mobile_revised" onclick="toggleDivs_mobile('five_mobile_revised')">
+                    <div class="mobile_image usual" >
+                        <img style="object-fit:contain;" alt="greens" src="pictures/six_six.png" class="img-fluid shadow"/>
+                    </div>
+                    <div  class="mobile_text flip" >
+                        <div class="section_2_second_inner_1_mobile shadow"   >
+                    
+                            The impact of mining and the extent to which it is appropriate in each context is often a subjective opinion. This makes the regulatory environment exceptionally important in defining the boundaries within which we can operate in each location. Our commitment to the benchmarks we set for ourselves in terms of legitimacy and legal compliance, far exceeds industry standards.
+                        </div>
+                    </div>
+                </div>                    
+                    </div>
+                </div>
+
+                <!-- 666666 -->
+                <div>
+                    <div class="usual_1 pt-4">
+                        <div class="not_usual" id="six_mobile_revised" onclick="toggleDivs_mobile('six_mobile_revised')">
+                    <div class="mobile_image usual" >
+                        <img style="object-fit:contain;" alt="greens" src="pictures/Group 165.png" class="img-fluid shadow"/>
+                    </div>
+                    <div  class="mobile_text flip" >
+                        <div class="section_2_second_inner_1_mobile shadow"   >
+                    
+                            We are dreamers passionate about disruptive innovation, and at every step, we focus on identifying and using the latest technologies in transforming for the better, an industry that we believe has not seen enough technological transformation over the years. We believe we can be a catalyst in a digital revolution in the global mining industry.
+                        </div>
+                    </div>
+                    </div>                    
+                    </div>
+                </div>
+
+            </div>
+
+
+
     </section>
+
+    
+
+
+
+
 
     <section id="about_us">
 
