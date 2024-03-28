@@ -27,20 +27,7 @@ body{
     line-height: 1.2;
 
 }
-.second{
-    color:white;
-    font-family:'Merriweather',serif ;
-    font-weight: 300;
-    text-align:center;
-    font-size:1rem;
-    align-items: center;
-    display:none ;
-    height:100%; 
-    width:100%;
-    justify-content: center;
-    align-items: center;
-    margin:auto;
-}
+
 
 .show{
     display:block !important;

@@ -19,26 +19,27 @@ function toggleDivs_mobile(id) {
 
 
 
-function toggleDivs(id) {
-    var clickedDiv = document.getElementById(id);
-    var firstDiv = clickedDiv.querySelector('.first');
-    var secondDiv = clickedDiv.querySelector('.second');
+// function toggleDivs(id) {
+//     var clickedDiv = document.getElementById(id);
+//     var firstDiv = clickedDiv.querySelector('.first');
+//     var secondDiv = clickedDiv.querySelector('.second');
 
-    if (firstDiv.style.display === 'none' || firstDiv.style.display === '') {
-        firstDiv.style.display = 'flex';
-        secondDiv.style.display = 'none';
-    } else {
-        firstDiv.style.display = 'none';
-        secondDiv.style.display = 'flex';
-    }
+//     if (firstDiv.style.display === 'none' || firstDiv.style.display === '') {
+//         firstDiv.style.display = 'flex';
+//         secondDiv.style.display = 'none';
+//     } else {
+//         firstDiv.style.display = 'none';
+//         secondDiv.style.display = 'flex';
+//     }
    
 
     
 
-    // Toggle the class 'flip' for the clicked div's .second and .first divs
-    // secondDiv.classList.toggle('flip_text');
-    // firstDiv.classList.toggle('flip_image');
-}
+//     Toggle the class 'flip' for the clicked div's .second and .first divs
+//     secondDiv.classList.toggle('flip_text');
+//     firstDiv.classList.toggle('flip_image');
+// }
+
 
 
 
